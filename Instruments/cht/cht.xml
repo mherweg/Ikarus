@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>cht.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>needle</object-name>
+        <object-name>face</object-name>
+        <emission>
+            <red>0.5</red>
+            <green>0.35</green>
+            <blue>0.2</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>needle</object-name>
+        <property>engines/engine/cht-degf</property>
+<!-- Calibrated
+        <interpolation>
+            <entry><ind>  0.0</ind><dep> 0.0</dep></entry>
+            <entry><ind>122.0</ind><dep> 9.0</dep></entry>
+            <entry><ind>176.0</ind><dep>22.0</dep></entry>
+            <entry><ind>212.0</ind><dep>41.0</dep></entry>
+            <entry><ind>248.0</ind><dep>71.0</dep></entry>
+            <entry><ind>275.0</ind><dep>97.0</dep></entry>
+        </interpolation>
+-->
+<!-- Purposely increaded interpolation values by 30 percent -->
+        <interpolation>
+            <entry><ind>  0.0</ind><dep> 0.0</dep></entry>
+            <entry><ind>160.0</ind><dep> 9.0</dep></entry>
+            <entry><ind>230.0</ind><dep>22.0</dep></entry>
+            <entry><ind>275.0</ind><dep>41.0</dep></entry>
+            <entry><ind>322.0</ind><dep>71.0</dep></entry>
+            <entry><ind>357.0</ind><dep>97.0</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m> 0</x-m>
+            <y-m> 0.0115737</y-m>
+            <z-m> 0.000558</z-m>
+        </center>
+    </animation>
+<!-- Normalmap effect -->
+    <effect>
+      <inherits-from>Aircraft/Ikarus/Models/Effects/Ikarus-instr-bump</inherits-from>
+      <object-name>face</object-name>
+      <object-name>bezel</object-name>
+     </effect>
+</PropertyList>

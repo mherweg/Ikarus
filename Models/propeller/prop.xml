@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+    <path>prop.ac</path>
+    <animation>
+        
+        <type>noshadow</type>
+        <object-name>Fastprop</object-name>
+        <object-name>Slowprop</object-name>
+    </animation>
+    <animation>
+        <type>select</type>
+        <object-name>Fastprop</object-name>
+        <condition>
+            <and>
+                <greater-than>
+                    <property>engines/engine[0]/rpm</property>
+                    <value>1200</value>
+                </greater-than>
+                <greater-than>
+                    <property>sim/current-view/view-number</property>
+                    <value>0</value>
+                </greater-than>
+            </and>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>select</type>
+        <object-name>Slowprop</object-name>
+        <condition>
+            <less-than>
+                <property>engines/engine/rpm</property>
+                <value>1201</value>
+            </less-than>
+            <greater-than>
+                <property>engines/engine/rpm</property>
+                <value>400</value>
+            </greater-than>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>select</type>
+        <object-name>Prop</object-name>
+        <condition>
+            <less-than>
+                <property>engines/engine/rpm</property>
+                <value>401</value>
+            </less-than>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>Prop</object-name>
+        <object-name>PropSpinner</object-name>
+        <property>engines/engine/rpm</property>
+        <factor>0.8</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.0</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>Slowprop</object-name>
+        <property>engines/engine/rpm</property>
+        <factor>0.4</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.0</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+</PropertyList>

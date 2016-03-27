@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+Ikarus C42
+Jan 2009 Ron Jensen
+************************************************************************
+-->
+
+<PropertyList>
+<sim>
+
+    <description>Ikarus C42</description>
+    <author>Ron Jensen</author>
+    <flight-model>jsb</flight-model>
+    <aero>c42</aero>
+
+    <instrumentation>
+      <path>Aircraft/Ikarus/c42-instrumentation.xml</path>
+    </instrumentation>
+    <systems>
+      <path>Aircraft/Ikarus/c42-systems.xml</path>
+    </systems>
+    <sound>
+        <path>Aircraft/Ikarus/Sound/c42-sound.xml</path>
+    </sound>
+
+    <model>
+        <path>Aircraft/Ikarus/Models/c42.xml</path>
+    </model>
+
+    <virtual-cockpit archive="y">true</virtual-cockpit>
+    <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+
+    <view n="0">
+        <internal archive="y">true</internal>
+        <config><!-- x/y/z == right/up/back -->
+            <x-offset-m archive="y">-0.23</x-offset-m>
+            <y-offset-m archive="y"> 0.27</y-offset-m>
+            <z-offset-m archive="y"> 0.6</z-offset-m>
+            <pitch-offset-deg>0.0</pitch-offset-deg>
+            <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+        </config>
+    </view>
+  <view n="100">
+    <name>Co-Pilot View</name>
+    <type>lookfrom</type>
+    <internal type="bool">true</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
+      <default-pitch-deg type="double">0</default-pitch-deg>
+      <default-heading-deg type="double">0</default-heading-deg>
+      <front-direction-deg type="double">0</front-direction-deg>
+      <front-left-direction-deg type="double">45</front-left-direction-deg>
+      <left-direction-deg type="double">90</left-direction-deg>
+      <back-left-direction-deg type="double">135</back-left-direction-deg>
+      <back-direction-deg type="double">180</back-direction-deg>
+      <back-right-direction-deg type="double">225</back-right-direction-deg>
+      <right-direction-deg type="double">270</right-direction-deg>
+      <front-right-direction-deg type="double">315</front-right-direction-deg>
+      <x-offset-m type="double"> 0.23</x-offset-m>
+      <y-offset-m type="double"> 0.27</y-offset-m>
+      <z-offset-m type="double"> 0.6</z-offset-m>
+      <pitch-offset-deg>-7</pitch-offset-deg>
+      <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+    </config> 
+  </view>
+
+  <view n="101">
+    <name>Landing Gear View</name>
+    <type>lookfrom</type>
+    <internal type="bool">true</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
+      <default-pitch-deg type="double">0</default-pitch-deg>
+      <default-heading-deg type="double">0</default-heading-deg>
+      <front-direction-deg type="double">0</front-direction-deg>
+      <front-left-direction-deg type="double">45</front-left-direction-deg>
+      <left-direction-deg type="double">90</left-direction-deg>
+      <back-left-direction-deg type="double">135</back-left-direction-deg>
+      <back-direction-deg type="double">180</back-direction-deg>
+      <back-right-direction-deg type="double">225</back-right-direction-deg>
+      <right-direction-deg type="double">270</right-direction-deg>
+      <front-right-direction-deg type="double">315</front-right-direction-deg>
+      <x-offset-m type="double"> 0.0</x-offset-m>
+      <y-offset-m type="double">-0.75</y-offset-m>
+      <z-offset-m type="double"> 1.75</z-offset-m>
+      <pitch-offset-deg>0</pitch-offset-deg>
+      <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+    </config> 
+  </view>
+
+    <chase-distance-m type="double" archive="y">-18.0</chase-distance-m>
+
+
+    <help>
+        <title>Ikarus C42</title>
+        <line></line> 
+        <key>
+            <name>!</name>
+            <desc>toggle fuel pump</desc>
+        </key>
+        <key>
+            <name>@</name>
+            <desc>toggle strobe light</desc>
+        </key>
+        <key>
+            <name>#</name>
+            <desc>toggle landing light</desc>
+        </key>
+        <key>
+            <name>$</name>
+            <desc>toggle taxi lights</desc>
+        </key>
+        <key>
+            <name>%</name>
+            <desc>toggle nav lights</desc>
+        </key>
+        <key>
+            <name>^</name>
+            <desc>toggle avionics power</desc>
+        </key>
+        <key>
+            <name>)</name>
+            <desc>toggle battery switch</desc>
+        </key>
+
+        <line>   Startup Procedure</line>
+        <line>1:Parking Brake	SET</line>
+        <line>2:Fuel Shut-off	OPEN</line>
+        <line>3:Carb Heat	OFF</line>
+        <line>4:Avionic Master	OFF</line>
+        <line>5:Master Switches	ON</line>
+        <line>6:Fuel Pump	ON</line>
+        <line>7:Magnetos	BOTH</line>
+        <line>8:Starter 	ENGAGED</line>
+        <line>9:Avionics Master	ON</line>
+    </help>
+    <flaps>
+      <setting>0.00</setting>
+      <setting>0.11</setting>
+      <setting>0.357</setting>
+      <setting>1.00</setting>
+    </flaps>
+</sim>
+
+<engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+</engines>
+<consumables>
+  <fuel>
+    <tank n="0">
+      <level-gal_us>9.0</level-gal_us>
+      <capacity-gal_us>17.17</capacity-gal_us><!-- 65 Liter -->
+    </tank>
+  </fuel>
+</consumables>
+<controls>
+  <engines>
+   <engine n="0">
+    <magnetos>0</magnetos>
+    <propeller-feather type="bool">false</propeller-feather>
+    <starter-switch type="bool">false</starter-switch>
+   </engine>
+  </engines>
+  <flight>
+  	<aileron-trim type="double">0.0125</aileron-trim>
+  </flight>
+  <lighting>
+      <instruments-norm type="double">0.667</instruments-norm>
+      <panel-norm type="double">1.0</panel-norm>
+      <instrument-lights type="bool">true</instrument-lights>
+      <panel-lights type="bool">true</panel-lights>
+  </lighting>
+</controls>
+<instrumentation><!-- this is evil -->
+  <nav>
+    <frequencies>
+      <selected-mhz>115.00</selected-mhz>
+    </frequencies>
+  </nav>
+  <hobbs-meter>
+    <time archive="y" type="double">7010280</time>
+  </hobbs-meter>
+</instrumentation>
+<input>
+    <keyboard>
+        <key n="102">
+            <name>f</name>
+            <desc>fuel tank select</desc>
+            <binding>
+                <command>property-adjust</command>
+                <property>controls/fuel/switch-position</property>
+                <step>1</step>
+                <min>0</min>
+                <max>4</max>
+                <wrap>1</wrap>
+            </binding>
+        </key>
+
+        <key n="33">
+            <name>!</name>
+            <desc>Toggle Fuel Pump</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/engines/engine/fuel-pump</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+        <key n="64">
+            <name>@</name>
+            <desc>Toggle Strobe Light</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/lighting/strobe</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+        <key n="35">
+            <name>#</name>
+            <desc>Toggle Landing Light</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/lighting/landing-lights[0]</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+        <key n="36">
+            <name>$</name>
+            <desc>Toggle Nav Lights</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/lighting/taxi-light</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+        <key n="37">
+            <name>%</name>
+            <desc>Toggle Nav Lights</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/lighting/nav-lights</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+        <key n="94">
+            <name>^</name>
+            <desc>Toggle Avionics Power</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/avionics/power</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+
+         <key n="41">
+            <name>)</name>
+            <desc>Toggle Battery Switch</desc>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/electric/battery-switch</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key>
+<!-- -->
+       <!--key n="36">
+            <name>$</name>
+            <desc>Toggle Carb Heat</desc>
+            <binding>
+                <command>property-toggle</command> 
+                <property>controls/anti-ice/engine/carb-heat</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>/sim/sound/switch</property>
+            </binding>
+        </key-->
+
+<!-- map keys for seat vertical adjust -->
+      <key n="21">
+        <name>CTRL-U</name>
+        <desc>Seat Default.</desc>
+        <binding>
+          <condition>
+            <equals>
+              <property>sim/current-view/view-number</property>
+              <value>0</value>
+            </equals>
+          </condition>
+          <command>property-assign</command>
+          <property>sim/current-view/y-offset-m</property>
+          <value type="double">0.375</value>
+        </binding>
+      </key>
+      <key n="85">
+        <name>U</name>
+        <desc>Seat Down.</desc>
+        <binding>
+          <condition>
+            <equals>
+              <property>sim/current-view/view-number</property>
+              <value>0</value>
+            </equals>
+          </condition>
+          <command>property-adjust</command>
+          <property>sim/current-view/y-offset-m</property>
+          <step type="double">-0.025</step>
+          <min type="double">0.00</min>
+          <max type="double">0.90</max>
+        </binding>
+      </key>
+      <key n="117">
+        <name>u</name>
+        <desc>Seat Up.</desc>
+        <binding>
+          <condition>
+            <equals>
+              <property>sim/current-view/view-number</property>
+              <value>0</value>
+            </equals>
+          </condition>
+          <command>property-adjust</command>
+          <property>sim/current-view/y-offset-m</property>
+          <step type="double">0.025</step>
+          <min type="double">0.00</min>
+          <max type="double">0.90</max>
+        </binding>
+      </key> 
+    </keyboard>
+</input>
+
+<limits>
+   <max-flap-extension-speed>
+     <flaps>1.0</flaps>
+     <speed>81</speed>
+   </max-flap-extension-speed>
+   <max-positive-g>4.4</max-positive-g>
+   <max-negative-g>-2.2</max-negative-g>
+   <vne>161</vne>
+ </limits>
+
+<nasal>
+  <failures> 
+    <file>Aircraft/Generic/limits.nas</file>
+  </failures>
+  <C42>
+      <file>Aircraft/Ikarus/Nasal/Electrical.nas</file>
+      <file>Aircraft/Ikarus/Nasal/c42.nas</file>
+  </C42>
+</nasal>
+ <payload>
+  <weight>
+   <name type="string">Pilot</name>
+   <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]"/>
+   <min-lb type="double">0.0</min-lb>
+   <max-lb type="double">250.0</max-lb>
+  </weight>
+  <weight>
+   <name type="string">Co-Pilot</name>
+   <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]"/>
+   <min-lb type="double">0.0</min-lb>
+   <max-lb type="double">250.0</max-lb>
+  </weight>
+  <weight>
+   <name type="string">Under pilot seat bag</name>
+   <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]"/>
+   <min-lb type="double">0.0</min-lb>
+   <max-lb type="double">50.0</max-lb> <!-- WARNING: Max baggage "by the book" is less! -->
+  </weight>
+  <weight>
+   <name type="string">Under copilot seat bag</name>
+   <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[3]"/>
+   <min-lb type="double">0.0</min-lb>
+   <max-lb type="double">50.0</max-lb> <!-- WARNING: Max baggage "by the book" is less! -->
+  </weight>
+  <weight>
+   <name type="string">Samsonite case</name>
+   <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[4]"/>
+   <min-lb type="double">0.0</min-lb>
+   <max-lb type="double">50.0</max-lb> <!-- WARNING: Max baggage "by the book" is less! -->
+  </weight>
+</payload> 
+ <gear>
+  <gear n="0">
+   <tyre-smoke type="int">0</tyre-smoke>
+   <sprayspeed-ms type="double">0</sprayspeed-ms>
+   <spray-density type="double">0</spray-density>
+   <caster-angle-deg-damped type="double">0</caster-angle-deg-damped>
+  </gear>
+  <gear n="1">
+   <tyre-smoke type="int">0</tyre-smoke>
+   <sprayspeed-ms type="double">0</sprayspeed-ms>
+   <spray-density type="double">0</spray-density>
+  </gear>
+  <gear n="2">
+   <tyre-smoke type="int">0</tyre-smoke>
+   <sprayspeed-ms type="double">0</sprayspeed-ms>
+   <spray-density type="double">0</spray-density>
+  </gear>
+ </gear>
+</PropertyList>

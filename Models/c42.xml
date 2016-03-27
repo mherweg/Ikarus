@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>c42.ac</path>
+
+  <!--Hide Construction Stuff
+  <animation>
+    <nopreview/>
+    <type>select</type>
+    <object-name>guides</object-name>
+    <condition>
+      <equals>
+        <value>0</value>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
+-->
+  <model>
+    <name>Master Switch</name>
+    <path>Aircraft/Ikarus/Instruments/switches/master_switch.xml</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m>-0.1114</y-m>
+      <z-m>-0.017</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Master Switch</name>
+    <path>Aircraft/Ikarus/Instruments/switches/starter_switch.xml</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m>-0.0864</y-m>
+      <z-m>-0.017</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Magneto 1</name>
+    <path>Aircraft/Ikarus/Instruments/switches/mag1_switch.xml</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m>-0.0607</y-m>
+      <z-m> 0.0295</z-m>
+      <pitch-deg>90</pitch-deg>
+      <roll-deg>90</roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Magneto 2</name> 
+    <path>Aircraft/Ikarus/Instruments/switches/mag2_switch.xml</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m>-0.0414</y-m>
+      <z-m> 0.0295</z-m>
+      <pitch-deg>90</pitch-deg>
+      <roll-deg>90</roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Master Caution</name>
+    <path>Aircraft/Ikarus/Instruments/switches/master_caution.xml</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m>-0.0113</y-m>
+      <z-m> 0.028</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Switch 3</name>
+    <path>Aircraft/Instruments-3d/controls/switch-large-flat.ac</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m> 0.019</y-m>
+      <z-m> 0.0295</z-m>
+      <pitch-deg>90</pitch-deg>
+      <roll-deg>90</roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Switch 4</name>
+    <path>Aircraft/Instruments-3d/controls/switch-large-rnd.ac</path>
+    <offsets>
+      <x-m>-0.051</x-m>
+      <y-m> 0.0394</y-m>
+      <z-m> 0.0295</z-m>
+      <pitch-deg>90</pitch-deg>
+      <roll-deg>90</roll-deg>
+    </offsets>
+  </model>
+
+    <model>
+        <name>Altimeter</name>
+        <path>Aircraft/Ikarus/Instruments/altimeter/alt2-3d.xml</path>
+        <offsets>
+            <x-m>-0.051</x-m>
+            <y-m>-0.1178</y-m>
+            <z-m> 0.095</z-m>
+            <pitch-deg>0</pitch-deg>
+        </offsets>
+    </model>
+
+    <model>
+       <name>Airspeed</name>
+       <path>Aircraft/Ikarus/Instruments/asi/asi-c42.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m>-0.2259</y-m>
+           <z-m> 0.0684</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Vertical Speed</name>
+       <path>Aircraft/Ikarus/Instruments/vsi/vsi-gauge.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m>-0.3375</y-m>
+           <z-m> 0.0072</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+   <model>
+       <name>RPM</name>
+       <path>Aircraft/Ikarus/Instruments/tach/tachometer.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m>-0.2255</y-m>
+           <z-m>-0.008</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Slip Ball</name>
+       <path>Aircraft/Instruments-3d/winter-ball/ball.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m>-0.1575</y-m>
+           <z-m>-0.008</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Heading Indicator</name>
+       <path>Aircraft/Instruments-3d/hi/hi.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m>-0.0116</y-m>
+           <z-m> 0.0997</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Oil Pressure</name>
+       <path>Aircraft/Ikarus/Instruments/oil-pressure/oil-press.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m> 0.097</y-m>
+           <z-m> 0.1056</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Oil Temperature</name>
+       <path>Aircraft/Ikarus/Instruments/oil-temperature/oil-temp.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m> 0.160</y-m>
+           <z-m> 0.0941</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Cylinder Head Temperature</name>
+       <path>Aircraft/Ikarus/Instruments/cht/cht.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m> 0.221</y-m>
+           <z-m> 0.0754</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Fuel Quantity</name>
+       <path>Aircraft/Ikarus/Instruments/fuel/fuel.xml</path>
+       <offsets>
+           <x-m>-0.051</x-m>
+           <y-m> 0.280</y-m>
+           <z-m> 0.0469</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+   <model>
+       <name>Propeller</name>
+       <path>Aircraft/Ikarus/Models/propeller/prop.xml</path>
+       <offsets>
+           <x-m>-1.28</x-m>
+           <y-m> 0.0</y-m>
+           <z-m> 0.0</z-m>
+           <pitch-deg>0</pitch-deg>
+       </offsets>
+   </model>
+
+    <!--  Rudder Animation  -->
+    <animation>
+        <type>rotate</type>
+        <object-name>rudder</object-name>
+        <property>/fdm/jsbsim/fcs/rudder-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 4.266</x-m>
+            <y-m> 0.0</y-m>
+            <z-m> 0.6047</z-m>
+        </center>
+        <axis>
+            <x> 0.035</x>
+            <y> 0.0</y>
+            <z>-0.999</z>
+        </axis>
+    </animation>
+
+    <!--  Elevator Animation  -->
+    <animation>
+        <type>rotate</type>
+        <object-name>elevator</object-name>
+        <object-name>trimtab</object-name>
+        <property>/fdm/jsbsim/fcs/elevator-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 4.2165</x-m>
+            <y-m> 0.00</y-m>
+            <z-m>-0.017</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y> 1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <!--  Aileron Animations  -->
+    <animation>
+        <type>rotate</type>
+        <object-name>aileron-l</object-name>
+        <property>/fdm/jsbsim/fcs/left-aileron-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 1.1483</x-m>
+            <y-m>-3.3810</y-m>
+            <z-m> 0.5576</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y> 1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>aileron-r</object-name>
+        <property>/fdm/jsbsim/fcs/right-aileron-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 1.1483</x-m>
+            <y-m> 3.3810</y-m>
+            <z-m> 0.5576</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y> 1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <!--  Flap Animations  -->
+    <animation>
+        <type>rotate</type>
+        <object-name>flap-l</object-name>
+        <property>/fdm/jsbsim/fcs/flap-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 1.1500</x-m>
+            <y-m>-1.1565</y-m>
+            <z-m> 0.5143</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y> 1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>flap-r</object-name>
+        <property>/fdm/jsbsim/fcs/flap-pos-deg</property>
+        <factor>1</factor>
+        <center>
+            <x-m> 1.1500</x-m>
+            <y-m> 1.1565</y-m>
+            <z-m> 0.5143</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y> 1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+
+    <!-- Gear Animations -->
+    <!-- Nose Gear -->
+ <model>
+  <path>Aircraft/Generic/Effects/tyre-smoke-nose.xml</path>
+  <name>tyre-smoke-n</name>
+  <offsets>
+   <x-m>-0.856</x-m>
+   <y-m>0</y-m>
+   <z-m>-1.067</z-m>
+  </offsets>
+ </model>
+    <animation>
+        <type>rotate</type>
+        <object-name>nosewheel</object-name>
+        <object-name>nose.strut.piston</object-name>
+        <property>/fdm/jsbsim/gear/unit/steering-angle-deg</property>
+        <factor>-1</factor>
+        <center>
+            <x-m>-0.792</x-m>
+            <y-m> 0.0</y-m>
+            <z-m>-0.878</z-m>
+        </center>
+        <axis>
+            <x> 0.31</x>
+            <y> 0.0</y>
+            <z> 0.95</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>translate</type>
+        <object-name>nosewheel</object-name>
+        <object-name>nose.axle</object-name>
+        <object-name>nose.strut.piston</object-name>
+        <property>gear/gear[0]/compression-ft</property>
+        <factor>0.3048</factor>
+        <center>
+            <x-m>-0.856</x-m>
+            <y-m> 0.</y-m>
+            <z-m>-1.067</z-m>
+        </center>
+        <axis>
+            <x>0.31</x>
+            <y>0.0</y>
+            <z>0.95</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>spin</type>
+        <object-name>nosewheel</object-name>
+        <property>gear/gear[0]/rollspeed-ms</property>
+        <factor>51.856</factor> <!-- 1 / Wheel circumference in m * 60 -->
+        <center>
+            <x-m>-0.856</x-m>
+            <y-m> 0.</y-m>
+            <z-m>-1.067</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y>-1.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+<!-- Left Main Gear --> 
+ <model>
+  <path>Aircraft/Generic/Effects/tyre-smoke-port.xml</path>
+  <name>tyre-smoke-p</name>
+  <offsets>
+   <x-m>0.5764</x-m>
+   <y-m>-0.7289</y-m>
+   <z-m>-1.067</z-m>
+  </offsets>
+ </model>
+ 
+
+    <animation>
+       <type>rotate</type>
+       <object-name>left.test.strut</object-name>
+       <object-name>leftmainwheel</object-name>
+       <object-name>left.strut</object-name>
+       <property>gear/gear[1]/compression-ft</property>
+       <factor>24.</factor> <!-- (deflection ft/0.73m)*(rad/deg) = 24 * deflection valid for ~15 degrees -->
+       <center>
+            <x-m> 0.5705</x-m>
+            <y-m>-0.1316</y-m>
+            <z-m>-0.4859</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y> 0.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+       <type>rotate</type>
+       <object-name>left.front.strut</object-name>
+       <property>gear/gear[1]/compression-ft</property>
+       <factor>24.</factor> <!-- (deflection ft/0.73m)*(rad/deg) = 24 * deflection valid for ~15 degrees -->
+       <center>
+            <x-m> 0.0006</x-m>
+            <y-m>-0.0325</y-m>
+            <z-m>-0.409</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y> 0.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+       <type>translate</type>
+       <object-name>left.strut.piston</object-name>
+       <property>gear/gear[1]/compression-ft</property>
+        <factor>0.2</factor>
+        <center>
+            <x-m> 0.5764</x-m>
+            <y-m>-0.7289</y-m>
+            <z-m>-1.0670</z-m>
+        </center>
+        <axis>
+            <x>0.0</x>
+            <y>-0.05</y>
+            <z>-0.999</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>spin</type>
+        <object-name>leftmainwheel</object-name>
+        <property>gear/gear[1]/rollspeed-ms</property>
+        <factor>51.856</factor> <!-- 1 / Wheel circumference in m * 60 -->
+        <center>
+            <x-m> 0.5764</x-m>
+            <y-m>-0.7289</y-m>
+            <z-m>-1.0670</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y>-0.985</y>
+            <z>-0.174</z>
+        </axis>
+    </animation>
+
+<!-- Right Main Gear -->
+ <model>
+  <path>Aircraft/Generic/Effects/tyre-smoke-stbd.xml</path>
+  <name>tyre-smoke-s</name>
+  <offsets>
+   <x-m> 0.5705</x-m>
+   <y-m> 0.7289</y-m>
+   <z-m>-1.067</z-m>
+  </offsets>
+ </model>
+    <animation>
+        <type>translate</type>
+        <object-name>right.strut.piston</object-name>
+        <property>gear/gear[2]/compression-ft</property>
+        <factor>0.2</factor>
+        <center>
+            <x-m> 0.5764</x-m>
+            <y-m> 0.7289</y-m>
+            <z-m>-1.0670</z-m>
+        </center>
+        <axis>
+            <x>0.0</x>
+            <y>0.05</y>
+            <z>-0.999</z>
+        </axis>
+    </animation>
+    <animation>
+       <type>rotate</type>
+       <object-name>right.test.strut</object-name>
+       <object-name>rightmainwheel</object-name>
+       <object-name>right.strut</object-name>
+       <property>gear/gear[2]/compression-ft</property>
+       <factor>24.</factor> <!-- (deflection ft/0.73m)*(rad/deg) = 24 * deflection valid for ~15 degrees -->
+       <center>
+            <x-m> 0.5705</x-m>
+            <y-m> 0.1316</y-m>
+            <z-m>-0.4859</z-m>
+        </center>
+        <axis>
+            <x> 1.0</x>
+            <y> 0.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+       <type>rotate</type>
+       <object-name>right.front.strut</object-name>
+       <property>gear/gear[2]/compression-ft</property>
+       <factor>24.</factor> <!-- (deflection ft/0.73m)*(rad/deg) = 24 * deflection valid for ~15 degrees -->
+       <center>
+            <x-m> 0.0006</x-m>
+            <y-m> 0.0325</y-m>
+            <z-m>-0.409</z-m>
+        </center>
+        <axis>
+            <x> 1.0</x>
+            <y> 0.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>spin</type>
+        <object-name>rightmainwheel</object-name>
+        <property>gear/gear[2]/rollspeed-ms</property>
+        <factor>51.856</factor> <!-- 1 / Wheel circumference in m * 60 -->
+        <center>
+            <x-m> 0.5764</x-m>
+            <y-m> 0.7289</y-m>
+            <z-m>-1.0670</z-m>
+        </center>
+        <axis>
+            <x> 0.0</x>
+            <y>-0.985</y>
+            <z> 0.174</z>
+        </axis>
+    </animation>
+ 
+</PropertyList>

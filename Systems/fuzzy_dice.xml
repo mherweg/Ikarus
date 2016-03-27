@@ -1,0 +1,45 @@
+<!--
+  Fuzzy dice attempts to simulate the motion of an object hanging from a string in the cockpit of an aircraft
+
+    accelerations/a-pilot-x-ft_sec2
+    accelerations/a-pilot-y-ft_sec2
+    accelerations/a-pilot-z-ft_sec2
+
+  -->
+<system name="fuzzydice">
+
+ <channel name="pitch">
+  <fcs_function name="pitch rotation">
+    <function name="pitch rotation f">
+      <product>
+        <atan2>
+         <property>accelerations/a-pilot-x-ft_sec2</property>
+         <product><value>-1</value>
+           <property>accelerations/a-pilot-z-ft_sec2</property>
+         </product>
+        </atan2>
+       <value> 57.3</value>
+     </product>
+    </function>
+    <output>systems/dice/pitch-deg</output>
+  </fcs_function>
+ </channel>
+
+ <channel name="roll">
+  <fcs_function name="roll rotation">
+    <function name="roll rotation f">
+      <product>
+        <atan2>
+         <property>accelerations/a-pilot-y-ft_sec2</property>
+         <product><value>-1</value>
+           <property>accelerations/a-pilot-z-ft_sec2</property>
+         </product>
+        </atan2>
+        <value>-57.3</value>
+      </product>
+    </function>
+    <output>systems/dice/roll-deg</output>
+  </fcs_function>
+ </channel>
+
+</system>

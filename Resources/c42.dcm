@@ -1,0 +1,105 @@
+DIM M
+DERIV RAD
+#PART
+#DAMP
+
+#weight is in Newtons for some stupid reason.
+ $FLTCON WT=4400., 
+     LOOP=2.0, 
+     NMACH=1.0, MACH(1)=0.13,
+     NALT=1.0,  ALT(1)=600.,
+     NALPHA=20.0,
+     ALSCHD(1)= -16.0, -8.0, -6.0, -4.0, -2.0, -1.0, 0.0, 1.0, 2.0,  4.0, 6.0,
+         8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 19.0, 20.0, 21.0,
+     STMACH=0.7, TSMACH=1.4, TR=1.0$
+
+ $OPTINS ROUGFC=0.25E-3, SREF=12.5$
+# $OPTINS CBARR=2.5, BLREF=12.
+
+ $SYNTHS XCG=0.5, ZCG= -0.2,
+         XW= 0., ZW=0.58, ALIW=2.0,
+         XH= 3.675,ZH= -0.02,  ALIH=1.0,
+         XV= 3.615,XVF=2.8,
+         SCALE=1.0, VERTUP=.FALSE.$
+* Body
+ $BODY NX=12.0,
+       X(1) = -1.275, -1.214, -1.172, -1.0, -0.571, 0.0, 0.6283, 1.5247,
+               2.02234, 2.65533, 3.20627, 4.18838,
+       R(1) = 0.1024, 0.1769, 0.22815, 0.33525, 0.43305, 0.504, 0.533,
+              0.45, 0.45, 0.292815, 0.214245, 0.10294,
+       ZU(1)= 0.1348, 0.1574, 0.1649, 0.1775, 0.2126, 0.5785, 0.5785,
+              0.484, 0.3615, 0.2628, 0.2114, 0.1601,
+       ZL(1)= -0.118, -0.211, -0.276, -0.324, -0.464, -0.521, -0.521,
+              -0.41, -0.373, -0.291, -0.202, -0.091,
+
+
+
+       BLN=.25,   BLA=1.0,
+       ITYPE=3.0, METHOD=1.0$
+
+ $WGPLNF CHRDTP=.35, CHRDBP=1.310, CHRDR=1.435,
+         SSPN=4.725, SSPNE= 4.25, SSPNOP= 0.44,
+         SAVSI=0.,SAVSO=0.,CHSTAT=1.0,
+         TWISTA=0.0, DHDADI=0., DHDADO=0.,
+         TYPE=1.0$
+NACA W 4 2412
+
+CASEID ----- Ikarus Wing Body ----- 
+#DAMP
+SAVE
+#DUMP DYN
+NEXT CASE
+
+ $HTPLNF TYPE=1.0,    CHRDR=0.925, CHRDTP=0.68,
+         SSPNE=1.125, SSPN=1.275,  SAVSI=0.0,
+         CHSTAT=1.0,  TWISTA=0.0,  DHDADI=0.0,
+         SHB=0., SEXT=0., RLPH=6.66$ ! I Guessed at these numbers
+
+NACA H 4 0012
+
+***********************************
+*    Elevator Deflection parameters
+***********************************
+*   FTYPE   Flap type
+*              1.0  Plain flaps
+*   NDELTA  Number of flap or slat deflection angles, max of 9
+*   DELTA   Flap deflection angles measured streamwise
+*           (NDELTA values in array)
+*   PHETE   Tangent of airfoil trailine edge angle based on ordinates at
+*           90 and 99 percent chord
+*   PHETEP  Tangent of airfoil trailing edge angle based on ordinates at
+*           95 and 99 percent chord
+*   CHRDFI  Flap chord at inboard end of flap, measured parallel to
+*           longitudinal axis
+*   CHRDFO  Flap chord at outboard end of flap, measured parallel to
+*           longitudinal axis
+*   SPANFI  Span location of inboard end of flap, measured perpendicular
+*           to vertical plane of symmetry
+*   SPANFO  Span location of outboard end of flap, measured perpendicular
+*           to vertical plane of symmetry
+*   CB      Average chord of the balance    (plain flaps only)
+*   TC      Average thickness of the control at hinge line
+*           (plain flaps only)
+
+ $SYMFLP FTYPE=1.0,
+         NDELTA=7.0, DELTA(1)=-30.,-20.0,-10.0,0.0,10.0,20.0,30.,
+         PHETE=0.0522, PHETEP=0.0523,
+         CHRDFI=0.5,  CHRDFO=0.5,
+         SPANFI=0.19, SPANFO=.77,
+         CB=0.55,      TC=0.3,         NTYPE=1.0$ 
+
+ $VTPLNF TYPE=1.0,   CHRDR=0.92, CHRDTP=0.356,
+         SSPNE=1., SSPN=1.175,
+         SAVSI=0., CHSTAT=1.0$
+
+ $VFPLNF TYPE=1.0,   CHRDR=1.44, CHRDTP=0.1,
+         SSPNE=0.1, SSPN=.2,
+         SAVSI=0.,CHSTAT=1.0$
+
+NACA V 4 0012
+NACA F 4 0012
+CASEID ----- Ikarus Final ----- 
+#DAMP
+TRIM
+SAVE
+NEXT CASE 

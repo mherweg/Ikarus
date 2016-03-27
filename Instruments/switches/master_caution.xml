@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>master_caution.ac</path>
+    <animation>
+        <type>material</type>
+        <object-name>lens</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.2</green>
+            <blue>0.2</blue>
+            <factor-prop>/systems/electrical/outputs/master-caution-norm</factor-prop>
+        </emission>
+    </animation>
+
+</PropertyList>

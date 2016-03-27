@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+ <!-- Overlay these for the second etc engine. -->
+ <params>
+  <magnetos>controls/engines/engine[0]/magnetos</magnetos>
+ </params>
+ 
+  <path>Aircraft/Instruments-3d/controls/switch-large-flat.ac</path>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>lever</object-name>
+    <property alias="../../params/magnetos"/>
+    <interpolation>
+      <entry><ind>0.0</ind><dep>-30.0</dep></entry>
+      <entry><ind>1.0</ind><dep> 30.0</dep></entry>
+      <entry><ind>2.0</ind><dep>-30.0</dep></entry>
+      <entry><ind>3.0</ind><dep> 30.0</dep></entry>
+    </interpolation>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+  </animation>
+  <animation>
+    <type>pick</type>
+      <object-name>base</object-name>
+      <object-name>lever</object-name>
+  <action>
+   <button>0</button>
+   <repeatable>false</repeatable>
+   <binding>
+    <condition>
+     <less-than-equals>
+      <property alias="../../../../../../params/magnetos"/>
+      <value type="int">1</value>
+     </less-than-equals>
+    </condition>
+    <command>property-cycle</command>
+    <property alias="../../../../params/magnetos"/>
+    <value type="int">0</value>
+    <value type="int">1</value>
+   </binding>
+   <binding>
+    <condition>
+     <greater-than-equals>
+      <property alias="../../../../../../params/magnetos"/>
+      <value type="int">2</value>
+     </greater-than-equals>
+    </condition>
+    <command>property-cycle</command>
+    <property alias="../../../../params/magnetos"/>
+    <value type="int">2</value>
+    <value type="int">3</value>
+   </binding>
+   <binding>
+    <command>property-toggle</command>
+    <property>/sim/sound/switch</property>
+   </binding>
+  </action> 
+ </animation>
+
+</PropertyList>

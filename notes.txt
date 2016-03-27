@@ -1,0 +1,57 @@
+http://www.chiltern.aero/page.php?page=Ikarus+C42
+
+
+
+http://forums.bmaa.org/default.aspx?f=56&m=74459
+
+Notable airspeeds for Ikarus C42 (from POH)
+"""""""""""""""""""""""""""""""""""""""""""
+
+ mph      kts    Description
+  17       15    Maximum crosswind component
+                 (Takeoff)
+  30       26    Nose lifts on takeoff
+  37       32    Vs0 -- stall speed, flap=2           White
+                        (full flaps)                  .
+                                                      .
+  42       36    Vs2 -- stall speed, flap=1           .
+                                                      .
+  44       38    Lift-off speed                       .
+                                                      .
+  47       41    Vs1 -- stall speed, flap=0           .  Green
+                        (no flaps; clean)             .  .
+                                                      .  .
+  52       45    Minimum sink [flap=1] 450fpm         .  .
+                 (not recommended?)                   .  .
+                                                      .  .
+  55       48    Best angle of climb [flap=1]         .  .
+                 (not recommended)                    .  .
+                                                      .  .
+  60       52    Yellow triangle                      .  .  <>
+                 minimum approach speed               .  .
+                                                      .  .
+  63       55    Flap=2 recommended approach speed    .  .
+                        (< 12mph crosswind)           .  .
+                                                      .  .
+  67       58    Flap=1 recommended approach speed    .  .
+  67       58    Best glide                           .  .
+                                                      .  .
+  70       61    Best rate of climb (flap=1)          .  .
+                                                      .  .
+  72       63    Vfe -- maximum flap=2 speed          .  .
+                                                         .
+  74       64    Full power climb (flap=0, 80hp)         .
+                                                         .
+  94       82    Va -- maximum in turbulence                Yellow
+                                                             .
+  95       83    Typical cruise (80-103 mph, 80hp)           .
+                                                             .
+ 118      103    Maximum cruise                              .
+                                                             .
+ 139      121    Vne -- never exceed                 -- Red --
+
+No doors:
+  80       70    Va -- maximum in turbulence
+ 103       90    Vne -- never exceed
+ 
+ 

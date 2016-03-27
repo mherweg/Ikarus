@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>Pushbutton.ac</path>
+
+    <animation>
+        <type>translate</type>
+        <object-name>Knob</object-name>
+        <property>controls/engines/engine[0]/starter-switch</property>
+        <factor>0.01</factor>
+        <center>
+            <x-m> 0.</x-m>
+            <y-m> 0.</y-m>
+            <z-m> 0.</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y> 0.0</y>
+            <z> 0.0</z>
+        </axis>
+    </animation>
+
+  <animation>
+    <type>pick</type>
+      <object-name>Knob</object-name>
+      <object-name>Chassis</object-name>
+      <action>
+        <button>0</button>
+        <binding>
+          <command>nasal</command>
+          <script>controls.startEngine(1)</script>
+        </binding>
+        <binding>
+          <command>property-toggle</command>
+         <property>/sim/sound/switch</property>
+      </binding>
+      <mod-up>
+          <binding>
+            <command>nasal</command>
+            <script>controls.startEngine(0)</script>
+         </binding>
+         <binding>
+           <command>property-toggle</command>
+           <property>/sim/sound/switch</property>
+         </binding>
+       </mod-up> 
+      </action>
+    </animation>
+
+</PropertyList>

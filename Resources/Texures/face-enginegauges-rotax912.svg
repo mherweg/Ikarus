@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="face-enginegauges-rotax912.svg"
+   inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/OH-TWN/Panels/face-airspeed-c42.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4499">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4501" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1"
+         id="stop4503" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4177"
+       inkscape:collect="always">
+      <stop
+         id="stop4179"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         id="stop4181"
+         offset="1"
+         style="stop-color:#4d4d4d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3395">
+      <stop
+         style="stop-color:#343434;stop-opacity:1"
+         offset="0"
+         id="stop3397" />
+      <stop
+         style="stop-color:#060606;stop-opacity:1"
+         offset="1"
+         id="stop3399" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4362"
+       inkscape:collect="always">
+      <stop
+         id="stop4364"
+         offset="0"
+         style="stop-color:#262626;stop-opacity:1" />
+      <stop
+         id="stop4366"
+         offset="1"
+         style="stop-color:#151515;stop-opacity:1" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter4754"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.6015787"
+         id="feGaussianBlur4756" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3871">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.90039467"
+         id="feGaussianBlur3873" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="linearGradient3330"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98901575,0,0,0.98901575,161.27339,-366.93857)"
+       x1="113.08239"
+       y1="30.491014"
+       x2="136.55351"
+       y2="189.81007" />
+    <filter
+       inkscape:collect="always"
+       id="filter4481"
+       x="-0.14400001"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.806899"
+         id="feGaussianBlur4483" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3395"
+       id="radialGradient4521"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1540845,0.99643206,-1.0047823,1.1637572,-301.24544,-267.35427)"
+       cx="316.90717"
+       cy="-249.54918"
+       fx="316.90717"
+       fy="-249.54918"
+       r="90.039467" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4177"
+       id="linearGradient4523"
+       gradientUnits="userSpaceOnUse"
+       x1="277.37851"
+       y1="-288.09045"
+       x2="363.64642"
+       y2="-190.91769" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4499"
+       id="linearGradient4765"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95801841,0.0039151,-0.00375077,0.99999234,0.39378738,-0.36656)"
+       x1="47.537251"
+       y1="172.88852"
+       x2="67.370674"
+       y2="207.5183" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="linearGradient3123"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98901575,0,0,0.98901575,161.27339,-366.93857)"
+       x1="113.08239"
+       y1="30.491014"
+       x2="136.55351"
+       y2="189.81007" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4177"
+       id="linearGradient3125"
+       gradientUnits="userSpaceOnUse"
+       x1="277.37851"
+       y1="-288.09045"
+       x2="363.64642"
+       y2="-190.91769" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3395"
+       id="radialGradient3127"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1540845,0.99643206,-1.0047823,1.1637572,-301.24544,-267.35427)"
+       cx="316.90717"
+       cy="-249.54918"
+       fx="316.90717"
+       fy="-249.54918"
+       r="90.039467" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="linearGradient4552"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98901575,0,0,0.98901575,161.27339,-366.93857)"
+       x1="113.08239"
+       y1="30.491014"
+       x2="136.55351"
+       y2="189.81007" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4177"
+       id="linearGradient4554"
+       gradientUnits="userSpaceOnUse"
+       x1="277.37851"
+       y1="-288.09045"
+       x2="363.64642"
+       y2="-190.91769" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3395"
+       id="radialGradient4556"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1540845,0.99643206,-1.0047823,1.1637572,-301.24544,-267.35427)"
+       cx="316.90717"
+       cy="-249.54918"
+       fx="316.90717"
+       fy="-249.54918"
+       r="90.039467" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="linearGradient3277"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98901575,0,0,0.98901575,161.27339,-366.93857)"
+       x1="113.08239"
+       y1="30.491014"
+       x2="136.55351"
+       y2="189.81007" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4177"
+       id="linearGradient3279"
+       gradientUnits="userSpaceOnUse"
+       x1="277.37851"
+       y1="-288.09045"
+       x2="363.64642"
+       y2="-190.91769" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3395"
+       id="radialGradient3281"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1540845,0.99643206,-1.0047823,1.1637572,-301.24544,-267.35427)"
+       cx="316.90717"
+       cy="-249.54918"
+       fx="316.90717"
+       fy="-249.54918"
+       r="90.039467" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="192"
+     inkscape:cy="63.74999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="745"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     borderlayer="true"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4740"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.4476662e-8,995.63777)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="photo"
+     style="display:inline"
+     transform="translate(-3.4476662e-8,995.63777)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="gauge"
+     style="display:inline"
+     transform="translate(-3.4476662e-8,995.63777)">
+    <text
+       xml:space="preserve"
+       style="font-size:28.11967468px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="34.37112"
+       y="-462.79828"
+       id="text4150"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="34.37112"
+         y="-462.79828"
+         style="font-size:9.84188557px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         id="tspan4152" /></text>
+    <path
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       transform="matrix(0.69414005,0,0,0.69414005,-127.53226,-615.27371)"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       sodipodi:ry="90.039467"
+       sodipodi:rx="90.039467"
+       sodipodi:cy="-271.36316"
+       sodipodi:cx="275.9274"
+       id="path5019"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3871)"
+       sodipodi:type="arc"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3856"
+       sodipodi:cx="275.9274"
+       sodipodi:cy="-271.36316"
+       sodipodi:rx="90.039467"
+       sodipodi:ry="90.039467"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       transform="matrix(0.6830338,0,0,0.68303365,-124.46774,-618.28759)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png" />
+    <path
+       transform="matrix(0.623206,0,0,0.62320585,-107.95962,-634.52267)"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       sodipodi:ry="90.039467"
+       sodipodi:rx="90.039467"
+       sodipodi:cy="-271.36316"
+       sodipodi:cx="275.9274"
+       id="path4728"
+       style="fill:url(#linearGradient3330);fill-opacity:1;stroke:none;filter:url(#filter4754)"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3868"
+       sodipodi:cx="275.9274"
+       sodipodi:cy="-271.36316"
+       sodipodi:rx="90.039467"
+       sodipodi:ry="90.039467"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       transform="matrix(-0.04197801,-0.0222136,0.02221359,-0.041978,107.61082,-808.89973)"
+       inkscape:transform-center-y="-1.9784094e-05"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.64197531;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4481)"
+       id="path4479"
+       sodipodi:cx="275.9274"
+       sodipodi:cy="-271.36316"
+       sodipodi:rx="90.039467"
+       sodipodi:ry="90.039467"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       transform="matrix(-0.12954707,-0.06855272,0.06855269,-0.12954704,144.34825,-818.93209)"
+       inkscape:transform-center-y="-6.1282158e-05"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:transform-center-y="48.744297"
+       inkscape:transform-center-x="-39.762675"
+       inkscape:label="white_arc_32_63kts"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4517"
+       sodipodi:cx="129.54135"
+       sodipodi:cy="128.98628"
+       sodipodi:rx="76.460999"
+       sodipodi:ry="76.460999"
+       d="m 204.74256,115.16372 c 2.20916,12.01887 1.50538,24.39218 -2.05235,36.08304"
+       transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-677.87097)"
+       sodipodi:start="6.1014066"
+       sodipodi:end="6.5785984"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:transform-center-y="-5.2650944e-05"
+       transform="matrix(-0.11922219,-0.06308908,0.06308905,-0.11922217,140.01671,-818.58232)"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       sodipodi:ry="90.039467"
+       sodipodi:rx="90.039467"
+       sodipodi:cy="-271.36316"
+       sodipodi:cx="275.9274"
+       id="path3393"
+       style="fill:url(#linearGradient4523);fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4521);fill-opacity:1;stroke:none"
+       id="path4173"
+       sodipodi:cx="275.9274"
+       sodipodi:cy="-271.36316"
+       sodipodi:rx="90.039467"
+       sodipodi:ry="90.039467"
+       d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+       transform="matrix(-0.10686305,-0.05654896,0.05654894,-0.10686303,134.83174,-817.0331)"
+       inkscape:transform-center-y="-4.9627422e-05"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       inkscape:transform-center-x="38.353943"
+       ry="0.36148366"
+       rx="0.36149985"
+       y="-636.55719"
+       x="-558.70251"
+       height="1.3363075"
+       width="16.078753"
+       id="rect4525"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.71252425,0.70164748,-0.69777268,0.71631926,0,0)"
+       inkscape:transform-center-y="-37.325616"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       id="g4838"
+       transform="translate(2,-1)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         transform="translate(-4,4)"
+         style="stroke:#ffffff"
+         id="g4713">
+        <g
+           style="stroke:#ffffff"
+           id="g4697">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4695"
+             style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             d="m 84.145978,-836.63777 3.708045,0 M 86,-833.78543 l 0,-2.85234 m 12.692924,2.06795 2.210566,-0.78439 0.71309,0.57046 m -20.394253,2.56711 -5.205525,-1.85402 0.713085,-2.78103 4.563748,1.49748 0,7.70132 11.694604,0 5.775991,-6.84562 -7.701322,1.99664 -1.426171,-1.21225 -8.271793,0" />
+        </g>
+        <path
+           style="fill:#ffffff;stroke:none"
+           d="m 103.39425,-831.93636 c -0.4838,3.21029 -2.33867,6.28149 0.0312,6.29849 2.78521,0.0205 0.59238,-3.21161 -0.0312,-6.29849 z"
+           id="path4711"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csc" />
+      </g>
+    </g>
+    <text
+       inkscape:transform-center-y="-29.382142"
+       inkscape:transform-center-x="102.99078"
+       sodipodi:linespacing="125%"
+       id="text4786"
+       y="-764.22107"
+       x="59.205589"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         id="tspan4788"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         y="-764.22107"
+         x="59.205589"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="57.912697"
+       y="-833.04968"
+       id="text4790"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="102.99078"
+       inkscape:transform-center-y="-29.382142"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         x="57.912697"
+         y="-833.04968"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         id="tspan4792">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="54.741127"
+       y="-775.16034"
+       id="text4794"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="102.99078"
+       inkscape:transform-center-y="-29.382142"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         x="54.741127"
+         y="-775.16034"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         id="tspan4796">0.8</tspan></text>
+    <text
+       inkscape:transform-center-y="-29.382142"
+       inkscape:transform-center-x="102.99078"
+       sodipodi:linespacing="125%"
+       id="text4802"
+       y="-783.16034"
+       x="50.741127"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         id="tspan4804"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         y="-783.16034"
+         x="50.741127"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="46.86245"
+       y="-800.80676"
+       id="text4808"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="102.99078"
+       inkscape:transform-center-y="-29.382142"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         x="46.86245"
+         y="-800.80676"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         id="tspan4810">5</tspan></text>
+    <text
+       inkscape:transform-center-y="-29.382142"
+       inkscape:transform-center-x="102.99078"
+       sodipodi:linespacing="125%"
+       id="text4814"
+       y="-814.45319"
+       x="48.276665"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         id="tspan4816"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         y="-814.45319"
+         x="48.276665"
+         sodipodi:role="line">7</tspan></text>
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       sodipodi:open="true"
+       sodipodi:end="5.3920329"
+       sodipodi:start="5.1852339"
+       transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-677.87097)"
+       d="m 164.36329,60.914871 c 4.69655,2.402521 9.13185,5.284643 13.23503,8.600309"
+       sodipodi:ry="76.460999"
+       sodipodi:rx="76.460999"
+       sodipodi:cy="128.98628"
+       sodipodi:cx="129.54135"
+       id="path4818"
+       style="fill:none;stroke:#ffff00;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:label="white_arc_32_63kts"
+       inkscape:transform-center-x="-39.762675"
+       inkscape:transform-center-y="48.744297" />
+    <path
+       inkscape:transform-center-y="48.744297"
+       inkscape:transform-center-x="-39.762675"
+       inkscape:label="white_arc_32_63kts"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#008000;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4820"
+       sodipodi:cx="129.54135"
+       sodipodi:cy="128.98628"
+       sodipodi:rx="76.460999"
+       sodipodi:ry="76.460999"
+       d="m 177.65549,69.561424 c 9.56401,7.74363 17.11769,17.681275 22.01938,28.968769"
+       transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-677.87097)"
+       sodipodi:start="5.3929946"
+       sodipodi:end="5.8734987"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       sodipodi:open="true"
+       sodipodi:end="6.3264379"
+       sodipodi:start="5.8777843"
+       transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-677.87097)"
+       d="m 199.80475,98.831036 c 4.52876,10.552264 6.62261,21.989064 6.12609,33.461354"
+       sodipodi:ry="76.460999"
+       sodipodi:rx="76.460999"
+       sodipodi:cy="128.98628"
+       sodipodi:cx="129.54135"
+       id="path4822"
+       style="fill:none;stroke:#ffff00;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:label="white_arc_32_63kts"
+       inkscape:transform-center-x="-39.762675"
+       inkscape:transform-center-y="48.744297" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       sodipodi:open="true"
+       sodipodi:end="5.1829544"
+       sodipodi:start="5.0095309"
+       transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-677.87097)"
+       d="m 151.92826,55.876018 c 4.22899,1.29495 8.33766,2.954391 12.27977,4.959653"
+       sodipodi:ry="76.460999"
+       sodipodi:rx="76.460999"
+       sodipodi:cy="128.98628"
+       sodipodi:cx="129.54135"
+       id="path4824"
+       style="fill:none;stroke:#ffffff;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:label="white_arc_32_63kts"
+       inkscape:transform-center-x="-39.762675"
+       inkscape:transform-center-y="48.744297" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4828"
+       width="16"
+       height="2"
+       x="575.99927"
+       y="-499.61478"
+       rx="0.3614963"
+       ry="0.36147961"
+       inkscape:transform-center-x="38.478978"
+       inkscape:transform-center-y="37.899466"
+       transform="matrix(0.69933653,-0.71479257,0.71479257,0.69933653,0,0)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       transform="matrix(0.81462596,-0.57998668,0.57998668,0.81462596,0,0)"
+       inkscape:transform-center-y="30.504641"
+       inkscape:transform-center-x="44.5698"
+       ry="0.36147961"
+       rx="0.3614963"
+       y="-604.23743"
+       x="477.88373"
+       height="2"
+       width="16"
+       id="rect4830"
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       transform="matrix(0.91604929,-0.40106571,0.40106571,0.91604929,0,0)"
+       inkscape:transform-center-y="20.741467"
+       inkscape:transform-center-x="49.867774"
+       ry="0.36147961"
+       rx="0.3614963"
+       y="-701.98792"
+       x="343.02863"
+       height="2"
+       width="16"
+       id="rect4832"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4834"
+       width="16"
+       height="2"
+       x="-375.4422"
+       y="-747.63885"
+       rx="0.3614963"
+       ry="0.36147961"
+       inkscape:transform-center-x="46.664368"
+       inkscape:transform-center-y="-27.192599"
+       transform="matrix(0.8731811,0.4873959,-0.4873959,0.8731811,0,0)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4836"
+       width="12.056081"
+       height="2.056217"
+       x="-26.647104"
+       y="-809.935"
+       rx="0"
+       ry="0"
+       inkscape:transform-center-x="53.808951"
+       inkscape:transform-center-y="-4.6475963"
+       transform="matrix(0.99771324,0.06758917,-0.06758917,0.99771324,0,0)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       id="g4761"
+       transform="matrix(0,0.9944759,-1.1082251,0,-900.80202,-1026.673)"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/pointer-enginegauges-rotax.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         id="path3388"
+         transform="translate(3.4476662e-8,-995.63777)"
+         d="m 78.46875,188.25 -45.250016,1.77344 0,3.60938 45.156266,1.80468 c -0.683274,-2.30512 -0.682974,-4.80233 0.09375,-7.1875 z"
+         style="fill:#ff6600;stroke:none"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path4485"
+         transform="translate(3.4476662e-8,-995.63777)"
+         d="m 78.46875,188.21875 -45.250016,1.80469 -4e-6,1.80469 44.656266,0.04 c 0.03156,-1.149 0.223428,-2.52143 0.593754,-3.64935 z"
+         style="opacity:0.53086416;fill:url(#linearGradient4765);fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <text
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+       inkscape:transform-center-y="-29.382142"
+       inkscape:transform-center-x="102.99078"
+       sodipodi:linespacing="125%"
+       id="text4848"
+       y="-799.88776"
+       x="7.1626968"
+       style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4850"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+         y="-799.88776"
+         x="7.1626968"
+         sodipodi:role="line">bar</tspan></text>
+    <g
+       id="g4033"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oiltemperature-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.69414005,0,0,0.69414005,-127.53226,-743.27371)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3049"
+         style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3871)"
+         sodipodi:type="arc"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path3051"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(0.6830338,0,0,0.68303365,-124.46774,-746.28759)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png" />
+      <path
+         transform="matrix(0.623206,0,0,0.62320585,-107.95962,-762.52267)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3053"
+         style="fill:url(#linearGradient3123);fill-opacity:1;stroke:none;filter:url(#filter4754)"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path3055"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(-0.04197801,-0.0222136,0.02221359,-0.041978,107.61082,-936.89973)"
+         inkscape:transform-center-y="-1.9784094e-05"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         sodipodi:type="arc"
+         style="opacity:0.64197531;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4481)"
+         id="path3057"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(-0.12954707,-0.06855272,0.06855269,-0.12954704,144.34825,-946.93209)"
+         inkscape:transform-center-y="-6.1282158e-05"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:transform-center-y="48.744297"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:label="white_arc_32_63kts"
+         sodipodi:type="arc"
+         style="fill:none;stroke:#ffffff;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3059"
+         sodipodi:cx="129.54135"
+         sodipodi:cy="128.98628"
+         sodipodi:rx="76.460999"
+         sodipodi:ry="76.460999"
+         d="m 204.74256,115.16372 c 2.20916,12.01887 1.50538,24.39218 -2.05235,36.08304"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         sodipodi:start="6.1014066"
+         sodipodi:end="6.5785984"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:transform-center-y="-5.2650944e-05"
+         transform="matrix(-0.11922219,-0.06308908,0.06308905,-0.11922217,140.01671,-946.58232)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3061"
+         style="fill:url(#linearGradient3125);fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient3127);fill-opacity:1;stroke:none"
+         id="path3063"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(-0.10686305,-0.05654896,0.05654894,-0.10686303,134.83174,-945.0331)"
+         inkscape:transform-center-y="-4.9627422e-05"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         inkscape:transform-center-x="38.353943"
+         ry="0.36148366"
+         rx="0.36149985"
+         y="-727.76141"
+         x="-648.01886"
+         height="1.3363075"
+         width="16.078753"
+         id="rect3065"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.71252425,0.70164748,-0.69777268,0.71631926,0,0)"
+         inkscape:transform-center-y="-37.325616"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <g
+         id="g3067"
+         transform="matrix(0.61393061,0,0,0.61393061,38.2137,-445.20919)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <g
+           transform="translate(-4,4)"
+           style="stroke:#ffffff"
+           id="g3069">
+          <g
+             style="stroke:#ffffff"
+             id="g3071">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3073"
+               style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               d="m 84.145978,-836.63777 3.708045,0 M 86,-833.78543 l 0,-2.85234 m 12.692924,2.06795 2.210566,-0.78439 0.71309,0.57046 m -20.394253,2.56711 -5.205525,-1.85402 0.713085,-2.78103 4.563748,1.49748 0,7.70132 11.694604,0 5.775991,-6.84562 -7.701322,1.99664 -1.426171,-1.21225 -8.271793,0" />
+          </g>
+          <path
+             style="fill:#ffffff;stroke:none"
+             d="m 103.39425,-831.93636 c -0.4838,3.21029 -2.33867,6.28149 0.0312,6.29849 2.78521,0.0205 0.59238,-3.21161 -0.0312,-6.29849 z"
+             id="path3075"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csc" />
+        </g>
+      </g>
+      <text
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3077"
+         y="-892.22107"
+         x="59.205589"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           id="tspan3079"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-892.22107"
+           x="59.205589"
+           sodipodi:role="line">50</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="57.912697"
+         y="-961.04968"
+         id="text3081"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           sodipodi:role="line"
+           x="57.912697"
+           y="-961.04968"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3083">150</tspan></text>
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:open="true"
+         sodipodi:end="5.3920329"
+         sodipodi:start="5.0114306"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         d="m 152.06711,55.918679 c 9.29797,2.86644 17.96341,7.48117 25.53121,13.596501"
+         sodipodi:ry="76.460999"
+         sodipodi:rx="76.460999"
+         sodipodi:cy="128.98628"
+         sodipodi:cx="129.54135"
+         id="path3101"
+         style="fill:none;stroke:#ffff00;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc"
+         inkscape:label="white_arc_32_63kts"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:transform-center-y="48.744297" />
+      <path
+         inkscape:transform-center-y="48.744297"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:label="white_arc_32_63kts"
+         sodipodi:type="arc"
+         style="fill:none;stroke:#008000;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3103"
+         sodipodi:cx="129.54135"
+         sodipodi:cy="128.98628"
+         sodipodi:rx="76.460999"
+         sodipodi:ry="76.460999"
+         d="m 177.65549,69.561424 c 9.56401,7.74363 17.11769,17.681275 22.01938,28.968769"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         sodipodi:start="5.3929946"
+         sodipodi:end="5.8734987"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:open="true"
+         sodipodi:end="6.3264379"
+         sodipodi:start="5.857413"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         d="m 199.17591,97.406035 c 4.96006,10.936955 7.27419,22.888455 6.75493,34.886355"
+         sodipodi:ry="76.460999"
+         sodipodi:rx="76.460999"
+         sodipodi:cy="128.98628"
+         sodipodi:cx="129.54135"
+         id="path3105"
+         style="fill:none;stroke:#ffff00;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc"
+         inkscape:label="white_arc_32_63kts"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:transform-center-y="48.744297" />
+      <rect
+         transform="matrix(0.97416183,-0.22585112,0.22585112,0.97416183,0,0)"
+         inkscape:transform-center-y="11.221758"
+         inkscape:transform-center-x="52.830631"
+         ry="0.36147961"
+         rx="0.3614963"
+         y="-889.20294"
+         x="236.37007"
+         height="2"
+         width="16"
+         id="rect3113"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect3115"
+         width="16"
+         height="2"
+         x="-437.82892"
+         y="-859.40594"
+         rx="0.3614963"
+         ry="0.36147961"
+         inkscape:transform-center-x="46.664368"
+         inkscape:transform-center-y="-27.192599"
+         transform="matrix(0.8731811,0.4873959,-0.4873959,0.8731811,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3117"
+         width="12.056081"
+         height="2.056217"
+         x="-7.0934372"
+         y="-936.47101"
+         rx="0"
+         ry="0"
+         inkscape:transform-center-x="53.924641"
+         inkscape:transform-center-y="-3.02269"
+         transform="matrix(0.99929778,0.03746931,-0.03746931,0.99929778,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3119"
+         y="-929.88776"
+         x="10.681229"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3121"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-929.88776"
+           x="10.681229"
+           sodipodi:role="line">°C</tspan></text>
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.90442763,-0.42662707,0.42662707,0.90442763,0,0)"
+         inkscape:transform-center-y="22.133369"
+         inkscape:transform-center-x="49.265792"
+         ry="0"
+         rx="0"
+         y="-807.27185"
+         x="417.013"
+         height="2.056217"
+         width="12.056081"
+         id="rect3212"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3214"
+         width="16"
+         height="2"
+         x="505.29886"
+         y="-746.53052"
+         rx="0.3614963"
+         ry="0.36147961"
+         inkscape:transform-center-x="46.435318"
+         inkscape:transform-center-y="27.581973"
+         transform="matrix(0.85016207,-0.52652109,0.52652109,0.85016207,0,0)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3216"
+         width="12.056081"
+         height="2.056217"
+         x="603.31506"
+         y="-662.30194"
+         rx="0"
+         ry="0"
+         inkscape:transform-center-x="42.160939"
+         inkscape:transform-center-y="33.755869"
+         transform="matrix(0.76891678,-0.63934888,0.63934888,0.76891678,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.7126584,-0.70151123,0.70151123,0.7126584,0,0)"
+         inkscape:transform-center-y="37.168894"
+         inkscape:transform-center-x="39.185117"
+         ry="0"
+         rx="0"
+         y="-604.41547"
+         x="656.29248"
+         height="2.056217"
+         width="12.056081"
+         id="rect3218"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect3109"
+         width="16"
+         height="2"
+         x="667.49255"
+         y="-589.13"
+         rx="0.3614963"
+         ry="0.36147961"
+         inkscape:transform-center-x="38.478978"
+         inkscape:transform-center-y="37.899466"
+         transform="matrix(0.69933653,-0.71479257,0.71479257,0.69933653,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="47.205589"
+         y="-920.22107"
+         id="text3220"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"><tspan
+           sodipodi:role="line"
+           x="47.205589"
+           y="-920.22107"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3222">100</tspan></text>
+      <text
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3224"
+         y="-940.22107"
+         x="47.205589"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           id="tspan3226"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-940.22107"
+           x="47.205589"
+           sodipodi:role="line">120</tspan></text>
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3228"
+         width="16"
+         height="2"
+         x="-251.54732"
+         y="-918.63818"
+         rx="0.3614963"
+         ry="0.36147961"
+         inkscape:transform-center-x="51.28392"
+         inkscape:transform-center-y="-16.939952"
+         transform="matrix(0.95518368,0.29601373,-0.29601373,0.95518368,0,0)" />
+      <g
+         transform="translate(1,2)"
+         id="g4026">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:0.95294815px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 88.532692,-973.20153 0,10.14144"
+           id="path4016"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4018"
+           d="m 90.511474,-972.13777 -1.554074,0"
+           style="fill:none;stroke:#ffffff;stroke-width:0.97705084px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:0.97705084px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 90.511474,-970.13777 -1.554074,0"
+           id="path4020"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4022"
+           d="m 90.511474,-968.13777 -1.554074,0"
+           style="fill:none;stroke:#ffffff;stroke-width:0.97705084px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;stroke:none"
+           id="path4024"
+           sodipodi:cx="88.5"
+           sodipodi:cy="33.5"
+           sodipodi:rx="1.5"
+           sodipodi:ry="1.5"
+           d="M 90,33.5 C 90,34.328427 89.328427,35 88.5,35 87.671573,35 87,34.328427 87,33.5 87,32.671573 87.671573,32 88.5,32 c 0.828427,0 1.5,0.671573 1.5,1.5 z"
+           transform="translate(3.4476656e-8,-996.63777)" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.24"
+       x="2"
+       y="-1041.6378"
+       id="text4243"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="2"
+         y="-1041.6378"
+         id="tspan4247"
+         style="font-size:16px"><tspan
+   dy="0 0"
+   id="tspan4249"
+   style="font-size:16px">Fonts use &quot;Droid Sans&quot; font, available i</tspan>n &quot;ttf-droid&quot; </tspan><tspan
+         sodipodi:role="line"
+         x="2"
+         y="-1021.6378"
+         style="font-size:16px"
+         id="tspan4251">package on Debian/Ubuntu Linux.</tspan></text>
+    <g
+       id="g4507"
+       transform="matrix(0.85252527,0,0,1.0922892,28.701704,84.544726)"
+       style="fill:#ffffff">
+      <g
+         id="g4514"
+         style="fill:#ffffff" />
+    </g>
+    <g
+       id="g4534"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-fuel-rotax912.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3871)"
+         id="path3334"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(0.69414005,0,0,0.69414005,0.46774,-743.27371)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png" />
+      <path
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.6830338,0,0,0.68303365,3.53226,-746.28759)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3336"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4552);fill-opacity:1;stroke:none;filter:url(#filter4754)"
+         id="path3338"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(0.623206,0,0,0.62320585,20.04038,-762.52267)" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-1.9784094e-05"
+         transform="matrix(-0.04197801,-0.0222136,0.02221359,-0.041978,235.61082,-936.89973)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3340"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-6.1282158e-05"
+         transform="matrix(-0.12954707,-0.06855272,0.06855269,-0.12954704,272.34825,-946.93209)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3342"
+         style="opacity:0.64197531;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4481)"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4554);fill-opacity:1;stroke:none"
+         id="path3346"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(-0.11922219,-0.06308908,0.06308905,-0.11922217,268.01671,-946.58232)"
+         inkscape:transform-center-y="-5.2650944e-05" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-4.9627422e-05"
+         transform="matrix(-0.10686305,-0.05654896,0.05654894,-0.10686303,262.83174,-945.0331)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3348"
+         style="fill:url(#radialGradient4556);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="187.2056"
+         y="-892.22107"
+         id="text3362"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"><tspan
+           sodipodi:role="line"
+           x="187.2056"
+           y="-892.22107"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3364">0</tspan></text>
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3366"
+         y="-961.04968"
+         x="185.91269"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3368"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-961.04968"
+           x="185.91269"
+           sodipodi:role="line">4/4</tspan></text>
+      <path
+         id="path3468"
+         transform="translate(3.4476662e-8,-995.63777)"
+         d="M 173.3125,20.625 C 169.70798,24.161275 166.58134,28.299089 164.09375,33 151.61595,56.579843 159.80309,85.577877 182.25,99.3125 167.22588,84.121013 163.07147,60.384416 173.59375,40.5 c 2.25594,-4.263157 5.03198,-8.066024 8.21875,-11.375 l -8.40625,-8.28125 c -0.0642,-0.06323 -0.0865,-0.135627 -0.0937,-0.21875 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(4,4)"
+         id="g4529">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke:none;display:inline"
+           d="m 211,22 c -1.108,0 -2,0.892 -2,2 l 0,16 c 0,1.108 0.892,2 2,2 l 7,0 c 1.108,0 2,-0.892 2,-2 l 0,-16 c 0,-1.108 -0.892,-2 -2,-2 z m 0,1 7,0 c 0.55399,0 1,0.446011 1,1 l 0,4 c 0,0.553989 -0.44601,1 -1,1 l -7,0 c -0.55399,0 -1,-0.446011 -1,-1 l 0,-4 c 0,-0.553989 0.44601,-1 1,-1 z"
+           id="rect4503"
+           sodipodi:nodetypes="ssssssssssssssssss"
+           transform="translate(3.4476662e-8,-995.63777)" />
+        <rect
+           transform="matrix(0.85252527,0,0,1.0922892,28.701704,84.54473)"
+           style="fill:#ffffff;stroke:none;display:inline"
+           id="rect4505"
+           width="15.248814"
+           height="1.8310567"
+           x="210.31435"
+           y="-952.2959"
+           rx="0"
+           ry="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4518"
+           d="m 219.5,-966.13778 2,0 c 0,0 1.71644,0.0516 0.99999,5 -0.76204,5.2633 -0.20837,6.40554 2.18069,6.00001 3.41543,-0.57975 0.41091,-5.2701 0.45885,-7 l 0.1187,-4.28331 c 0.0317,-1.14219 -1.80781,-3.87715 -2.91908,-5.42146 -0.30609,-0.42537 1.59838,1.00771 1.93076,2.0211 0.11565,0.35261 -0.0417,1.67397 -0.7567,0.99024 -0.4469,-0.42736 -1.56854,-2.94346 -1.56854,-2.94346"
+           style="fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           sodipodi:nodetypes="ccsssssssc" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-cht-rotax912.png"
+       id="g3190"
+       transform="translate(128,128)">
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3871)"
+         id="path3192"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(0.69414005,0,0,0.69414005,-127.53226,-743.27371)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png" />
+      <path
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.6830338,0,0,0.68303365,-124.46774,-746.28759)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3194"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient3277);fill-opacity:1;stroke:none;filter:url(#filter4754)"
+         id="path3196"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(0.623206,0,0,0.62320585,-107.95962,-762.52267)" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-1.9784094e-05"
+         transform="matrix(-0.04197801,-0.0222136,0.02221359,-0.041978,107.61082,-936.89973)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3198"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-6.1282158e-05"
+         transform="matrix(-0.12954707,-0.06855272,0.06855269,-0.12954704,144.34825,-946.93209)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3200"
+         style="opacity:0.64197531;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4481)"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient3279);fill-opacity:1;stroke:none"
+         id="path3204"
+         sodipodi:cx="275.9274"
+         sodipodi:cy="-271.36316"
+         sodipodi:rx="90.039467"
+         sodipodi:ry="90.039467"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         transform="matrix(-0.11922219,-0.06308908,0.06308905,-0.11922217,140.01671,-946.58232)"
+         inkscape:transform-center-y="-5.2650944e-05" />
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-4.9627422e-05"
+         transform="matrix(-0.10686305,-0.05654896,0.05654894,-0.10686303,134.83174,-945.0331)"
+         d="m 365.96687,-271.36316 c 0,49.72743 -40.31205,90.03947 -90.03947,90.03947 -49.72743,0 -90.03947,-40.31204 -90.03947,-90.03947 0,-49.72742 40.31204,-90.03947 90.03947,-90.03947 49.72742,0 90.03947,40.31205 90.03947,90.03947 z"
+         sodipodi:ry="90.039467"
+         sodipodi:rx="90.039467"
+         sodipodi:cy="-271.36316"
+         sodipodi:cx="275.9274"
+         id="path3206"
+         style="fill:url(#radialGradient3281);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="59.205589"
+         y="-892.22107"
+         id="text3221"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"><tspan
+           sodipodi:role="line"
+           x="59.205589"
+           y="-892.22107"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3223">50</tspan></text>
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3225"
+         y="-961.04968"
+         x="57.912697"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3227"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-961.04968"
+           x="57.912697"
+           sodipodi:role="line">135</tspan></text>
+      <path
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         sodipodi:open="true"
+         sodipodi:end="5.8734987"
+         sodipodi:start="5.3382895"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         d="m 174.33429,67.019544 a 76.460999,76.460999 0 0 1 25.34058,31.510649"
+         sodipodi:ry="76.460999"
+         sodipodi:rx="76.460999"
+         sodipodi:cy="128.98628"
+         sodipodi:cx="129.54135"
+         id="path3231"
+         style="fill:none;stroke:#008000;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc"
+         inkscape:label="white_arc_32_63kts"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:transform-center-y="48.744297" />
+      <path
+         inkscape:transform-center-y="48.744297"
+         inkscape:transform-center-x="-39.762675"
+         inkscape:label="white_arc_32_63kts"
+         sodipodi:type="arc"
+         style="fill:none;stroke:#ffff00;stroke-width:16.51644707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3233"
+         sodipodi:cx="129.54135"
+         sodipodi:cy="128.98628"
+         sodipodi:rx="76.460999"
+         sodipodi:ry="76.460999"
+         d="m 199.17591,97.406035 a 76.460999,76.460999 0 0 1 3.24588,54.704375"
+         transform="matrix(-0.64507046,-0.33430015,0.3343,-0.64507091,129.96422,-805.87097)"
+         sodipodi:start="5.857413"
+         sodipodi:end="6.5904267"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3235"
+         width="16"
+         height="2"
+         x="236.37007"
+         y="-889.20294"
+         rx="0.3614963"
+         ry="0.36147961"
+         inkscape:transform-center-x="52.830631"
+         inkscape:transform-center-y="11.221758"
+         transform="matrix(0.97416183,-0.22585112,0.22585112,0.97416183,0,0)" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.99929778,0.03746931,-0.03746931,0.99929778,0,0)"
+         inkscape:transform-center-y="-3.02269"
+         inkscape:transform-center-x="53.924641"
+         ry="0"
+         rx="0"
+         y="-936.47101"
+         x="-7.0934372"
+         height="2.056217"
+         width="12.056081"
+         id="rect3239"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <text
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="10.681229"
+         y="-929.88776"
+         id="text3241"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           sodipodi:role="line"
+           x="10.681229"
+           y="-929.88776"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3243">°C</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3245"
+         width="12.056081"
+         height="2.056217"
+         x="417.013"
+         y="-807.27185"
+         rx="0"
+         ry="0"
+         inkscape:transform-center-x="49.265792"
+         inkscape:transform-center-y="22.133369"
+         transform="matrix(0.90442763,-0.42662707,0.42662707,0.90442763,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         transform="matrix(0.85016207,-0.52652109,0.52652109,0.85016207,0,0)"
+         inkscape:transform-center-y="27.581973"
+         inkscape:transform-center-x="46.435318"
+         ry="0.36147961"
+         rx="0.3614963"
+         y="-746.53052"
+         x="505.29886"
+         height="2"
+         width="16"
+         id="rect3247"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.76891678,-0.63934888,0.63934888,0.76891678,0,0)"
+         inkscape:transform-center-y="33.755869"
+         inkscape:transform-center-x="42.160939"
+         ry="0"
+         rx="0"
+         y="-662.30194"
+         x="603.31506"
+         height="2.056217"
+         width="12.056081"
+         id="rect3249"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3251"
+         width="12.056081"
+         height="2.056217"
+         x="656.29248"
+         y="-604.41547"
+         rx="0"
+         ry="0"
+         inkscape:transform-center-x="39.185117"
+         inkscape:transform-center-y="37.168894"
+         transform="matrix(0.7126584,-0.70151123,0.70151123,0.7126584,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         transform="matrix(0.69933653,-0.71479257,0.71479257,0.69933653,0,0)"
+         inkscape:transform-center-y="37.899466"
+         inkscape:transform-center-x="38.478978"
+         ry="0.36147961"
+         rx="0.3614963"
+         y="-589.13"
+         x="667.49255"
+         height="2"
+         width="16"
+         id="rect3253"
+         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+      <text
+         inkscape:transform-center-y="-29.382142"
+         inkscape:transform-center-x="102.99078"
+         sodipodi:linespacing="125%"
+         id="text3255"
+         y="-920.22107"
+         x="47.205589"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           id="tspan3257"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           y="-920.22107"
+           x="47.205589"
+           sodipodi:role="line">100</tspan></text>
+      <text
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="47.205589"
+         y="-940.22107"
+         id="text3259"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"><tspan
+           sodipodi:role="line"
+           x="47.205589"
+           y="-940.22107"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3261">120</tspan></text>
+      <rect
+         transform="matrix(0.95518368,0.29601373,-0.29601373,0.95518368,0,0)"
+         inkscape:transform-center-y="-16.939952"
+         inkscape:transform-center-x="51.28392"
+         ry="0.36147961"
+         rx="0.3614963"
+         y="-918.63818"
+         x="-251.54732"
+         height="2"
+         width="16"
+         id="rect3263"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <text
+         xml:space="preserve"
+         style="font-size:27.02124596px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="78.412697"
+         y="-953.04968"
+         id="text3283"
+         sodipodi:linespacing="125%"
+         inkscape:transform-center-x="102.99078"
+         inkscape:transform-center-y="-29.382142"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180"><tspan
+           sodipodi:role="line"
+           x="78.412697"
+           y="-953.04968"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
+           id="tspan3285">CHT</tspan></text>
+      <rect
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:transform-center-y="-37.325616"
+         transform="matrix(0.71252425,0.70164748,-0.69777268,0.71631926,0,0)"
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect3208"
+         width="16.078753"
+         height="1.3363075"
+         x="-648.01886"
+         y="-727.76141"
+         rx="0.36149985"
+         ry="0.36148366"
+         inkscape:transform-center-x="38.353943" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3287"
+         width="12.056081"
+         height="2.056217"
+         x="-534.05658"
+         y="-810.40173"
+         rx="0"
+         ry="0"
+         inkscape:transform-center-x="44.861827"
+         inkscape:transform-center-y="-33.69235"
+         transform="matrix(0.81109187,0.58491877,-0.58491877,0.81109187,0,0)"
+         inkscape:export-filename="/home/tigert/git/gitorious.org/mik-ftd/gauge-workshop/face-oilpressure-rotax912.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+    </g>
+  </g>
+</svg>

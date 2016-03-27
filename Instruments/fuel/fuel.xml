@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>fuel.ac</path>
+  <animation>
+    <object-name>placard</object-name>
+    <nopreview/>
+    <type>select</type>
+    <condition>
+      <equals>
+        <value>0</value>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
+
+    <animation>
+        <type>material</type>
+        <object-name>needle</object-name>
+        <object-name>face</object-name>
+        <emission>
+            <red>0.5</red>
+            <green>0.35</green>
+            <blue>0.2</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>needle</object-name>
+        <property>consumables/fuel/tank/level-gal_us</property>
+        <factor> 5.59 </factor> <!-- 95.0 degrees / (full) gallons -->
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m> 0</x-m>
+            <y-m> 0.0101275</y-m>
+            <z-m> 0.</z-m>
+        </center>
+    </animation>
+<!-- Normalmap effect -->
+    <effect>
+      <inherits-from>Aircraft/Ikarus/Models/Effects/Ikarus-instr-bump</inherits-from>
+      <object-name>face</object-name>
+      <object-name>bezel</object-name>
+     </effect>
+
+</PropertyList>

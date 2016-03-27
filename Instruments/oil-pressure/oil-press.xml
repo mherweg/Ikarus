@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>oil-press.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>needle</object-name>
+        <object-name>face</object-name>
+        <emission>
+            <red>0.5</red>
+            <green>0.35</green>
+            <blue>0.2</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>needle</object-name>
+        <property>engines/engine/oil-pressure-psi</property>
+        <interpolation>
+            <entry><ind>  0.0</ind><dep> 0.0</dep></entry>
+            <entry><ind> 11.6</ind><dep>10.5</dep></entry>
+            <entry><ind> 29.0</ind><dep>22.5</dep></entry>
+            <entry><ind> 72.5</ind><dep>50.0</dep></entry>
+            <entry><ind>101.5</ind><dep>75.0</dep></entry>
+            <entry><ind>145.0</ind><dep>90.0</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m> 0</x-m>
+            <y-m> 0.011444</y-m>
+            <z-m> 0.000375</z-m>
+        </center>
+    </animation>
+
+<!-- Normalmap effect -->
+    <effect>
+      <inherits-from>Aircraft/Ikarus/Models/Effects/Ikarus-instr-bump</inherits-from>
+      <object-name>face</object-name>
+      <object-name>bezel</object-name>
+     </effect>
+
+</PropertyList>

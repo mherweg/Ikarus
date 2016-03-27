@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>master_switch.ac</path>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Cylinder</object-name>
+    <object-name>Key</object-name>
+    <property>controls/electric/battery-switch</property>
+    <factor>90</factor>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+      <object-name>Cylinder</object-name>
+      <object-name>Key</object-name>
+      <object-name>Base</object-name>
+      <action>
+        <button>0</button>
+        <binding>
+          <command>property-toggle</command>
+          <property>controls/electric/battery-switch</property>
+        </binding>
+        <binding>
+          <command>property-toggle</command>
+          <property>/sim/sound/switch</property>
+        </binding>
+      </action>
+    </animation>
+
+</PropertyList>

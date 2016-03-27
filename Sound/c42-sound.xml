@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+<fx>
+  <crank>
+   <name>cranking</name>
+   <mode>looped</mode>
+   <path>Aircraft/Ikarus/Sound/starter.wav</path>
+   <condition>
+    <property>/engines/engine/cranking</property>
+   </condition>
+   <volume>
+   <property>/engines/engine/cranking</property>
+    <offset>0.5</offset>
+    <max>1.0</max>
+   </volume>
+  </crank>
+  
+
+  <engine>
+   <name>enginerun</name>
+   <mode>looped</mode>
+   <path>Aircraft/Ikarus/Sound/waspjr.wav</path>
+   <condition>
+    <property>/engines/engine/running</property>
+   </condition>
+    <volume>
+    <property>/controls/engines/engine/throttle</property>
+    <min>0.5</min>
+    <max>1.00</max>
+   </volume>
+   <pitch>
+    <property>/engines/engine/rpm</property>
+    <factor>0.0002</factor>
+    <offset>0.2</offset>
+   </pitch>
+  </engine>
+  
+  <rumble>
+   <name>rumble</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>gear/gear/rollspeed-ms</property>
+    <type>log</type>
+    <factor>0.04</factor>
+    <max>2.0</max>
+   </volume>
+  </rumble>
+
+
+  <squeal>
+   <name>squeal</name>
+   <path>Sounds/squeal.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/speed-down-fps</property>
+    <factor>0.5</factor>
+    <max>1.0</max>
+   </volume>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+    <max>1.0</max>
+   </volume>
+   <volume>
+    <internal>dt_stop</internal>
+    <factor>0.05</factor>
+    <max>1.0</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.0025</factor>
+    <offset>0.5</offset>
+    <max>1.0</max>
+   </pitch>
+  </squeal>
+   <squeal2>
+    <name>squeal</name>
+    <path>Sounds/squeal.wav</path>
+    <condition>
+      <property>/gear/gear[5]/wow</property>
+    </condition>
+    <volume>
+     <property>/velocities/speed-down-fps</property>
+     <factor>1.5</factor>
+     <max>1.0</max>
+    </volume>
+    <volume>
+     <property>/velocities/airspeed-kt</property>
+     <factor>0.1</factor>
+     <max>1.0</max>
+    </volume>
+    <volume>
+     <internal>dt_stop</internal>
+     <factor>0.5</factor>
+     <max>1.0</max>
+    </volume>
+    <pitch>
+     <property>/velocities/airspeed-kt</property>
+     <factor>0.025</factor>
+     <offset>0.5</offset>
+     <max>1.0</max>
+    </pitch>
+  </squeal2>
+  <flap>
+   <name>flaps</name>
+   <mode>in-transit</mode>
+   <path>Sounds/flaps.wav</path>
+   <property>/surface-positions/flap-pos-norm</property>
+   <volume>
+    <factor>0.75</factor>
+    <max>1.0</max>
+   </volume>
+  </flap>
+  <fuelpump>
+   <name>fuelpump</name>
+   <mode>looped</mode>
+   <path>Sounds/fan.wav</path>
+   <condition>
+     <greater-than>
+       <property>systems/electrical/outputs/fuel-pump</property>
+       <value>10</value>
+     </greater-than>
+   </condition>
+   <volume>
+    <factor>0.75</factor>
+    <max>1.0</max>
+   </volume>
+   <pitch>2.0</pitch>
+  </fuelpump>
+
+  <wind>
+   <name>wind</name>
+   <mode>looped</mode>
+   <path>Sounds/wind.wav</path>
+   <property>fdm/jsbsim/aero/qbar-psf</property>
+   <volume>
+     <property>fdm/jsbsim/aero/qbar-psf</property>
+     <factor>0.00001</factor>
+     <min>0.0</min>
+     <max>0.5</max>
+   </volume>
+   <pitch>
+    <property>fdm/jsbsim/aero/qbar-psf</property>
+    <factor>0.001</factor>
+    <offset>0.5</offset>
+     <min>0.5</min>
+     <max>1.0</max>
+   </pitch>
+  </wind>
+ 
+  <stall>
+   <name>stall</name>
+   <mode>looped</mode>
+   <path>Sounds/stall.wav</path>
+   <property>/sim/alarms/stall-warning</property>
+   <volume>
+    <property>fdm/jsbsim/aero/qbar-psf</property>
+    <factor>0.025</factor>
+    <max>1.0</max>
+   </volume>
+  </stall>
+
+     
+      
+ <!--                  Toggle Switches                  -->     
+   
+<switch>
+   <name>click on</name>
+   <mode>once</mode>
+         <path>Aircraft/Ikarus/Sound/click.wav</path>
+   <condition>
+<property>/sim/sound/switch</property>
+</condition>
+   <volume>
+    <offset>0.7</offset>
+    <max>1.0</max>
+   </volume>
+  </switch>
+
+<switch>
+   <name>click off</name>
+   <mode>once</mode>
+        <path>Aircraft/Ikarus/Sound/click.wav</path>
+   <condition>
+   <not>
+<property>/sim/sound/switch</property>
+</not>
+</condition>
+   <volume>
+    <offset>0.7</offset>
+    <max>1.0</max>
+   </volume>
+  </switch>
+
+        
+</fx>
+ 
+</PropertyList>

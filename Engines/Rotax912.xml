@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+  File:     Rotax912.xml
+  Author:   Ron Jensen
+
+  <displacement unit="IN3">  73.90 </displacement>
+-->
+
+<piston_engine name="Rotax912">
+ <!-- Tags below deprecated in JSBSim 1.0 -->
+  <minmp unit="INHG">        12.0 </minmp>
+  <maxmp unit="INHG">        29.7 </maxmp> 
+  <maxhp>         80 </maxhp>
+ <!-- Tags above deprecated in JSBSim 1.0 -->
+
+ <!-- Tags below deprecated in JSBSim 2.0 -->
+  <maxthrottle>    1.0 </maxthrottle>
+  <minthrottle>    0.2 </minthrottle>
+ <!-- Tags above deprecated in JSBSim 2.0 -->
+
+  <displacement unit="IN3">  73.90 </displacement>
+  <cycles>         4.0 </cycles>
+  <idlerpm>     1800.0 </idlerpm>
+  <maxrpm>      5800.0 </maxrpm>
+  <bsfc>           0.35 </bsfc> 
+  <sparkfaildrop>  0.05</sparkfaildrop> <!-- percentage of power lost -->
+  <gagg-c> 0.117 </gagg-c>
+
+</piston_engine>

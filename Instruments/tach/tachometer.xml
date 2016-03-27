@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>tachometer.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>needle</object-name>
+        <object-name>instrument-face</object-name>
+        <object-name>Drum.0</object-name>
+        <object-name>Drum.1</object-name>
+        <object-name>Drum.2</object-name>
+        <object-name>Drum.3</object-name>
+        <object-name>Drum.4</object-name>
+        <emission>
+            <red>0.5</red>
+            <green>0.352</green>
+            <blue>0.2</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>needle</object-name>
+        <object-name>needle.1</object-name>
+        <property>engines/engine/rpm</property>
+        <interpolation>
+            <entry><ind>   0.0</ind><dep>  0.0</dep></entry>
+            <entry><ind>2000.0</ind><dep> 67.0</dep></entry>
+            <entry><ind>3000.0</ind><dep>103.0</dep></entry>
+            <entry><ind>4000.0</ind><dep>140.0</dep></entry>
+            <entry><ind>5000.0</ind><dep>176.0</dep></entry>
+            <entry><ind>6000.0</ind><dep>212.0</dep></entry>
+            <entry><ind>7000.0</ind><dep>245.0</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+        </center>
+    </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>Drum.0</object-name>
+    <property>instrumentation/hobbs-meter/time</property>
+    <factor>0.00027777778</factor>
+    <axis>
+      <x>0</x>
+      <y>-1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>textranslate</type>
+    <object-name>Drum.1</object-name>
+    <property>instrumentation/hobbs-meter/digits1</property>
+    <factor>0.1</factor>
+    <step>1</step>
+    <axis>
+      <x>0</x>
+      <y>-1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>textranslate</type>
+    <object-name>Drum.2</object-name>
+    <property>instrumentation/hobbs-meter/digits2</property>
+    <factor>0.1</factor>
+    <step>1</step>
+    <axis>
+      <x>0</x>
+      <y>-1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>textranslate</type>
+    <object-name>Drum.3</object-name>
+    <property>instrumentation/hobbs-meter/digits3</property>
+    <factor>0.1</factor>
+    <step>1</step>
+    <axis>
+      <x>0</x>
+      <y>-1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>textranslate</type>
+    <object-name>Drum.4</object-name>
+    <property>instrumentation/hobbs-meter/digits4</property>
+    <factor>0.1</factor>
+    <step>1</step>
+    <axis>
+      <x>0</x>
+      <y>-1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+ 
+ </PropertyList>
